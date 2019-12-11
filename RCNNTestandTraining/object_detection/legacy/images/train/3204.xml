@@ -1,0 +1,26 @@
+<annotation>
+	<folder>done</folder>
+	<filename>3204.jpg</filename>
+	<path>E:\Hassan Work\CNN Computer Vision\ImageSearchTests\Datasets\ShirtData\Data\Tshirts\Batch2\B2People\done\3204.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>871</width>
+		<height>1110</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>teeshirt</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>325</xmin>
+			<ymin>240</ymin>
+			<xmax>844</xmax>
+			<ymax>912</ymax>
+		</bndbox>
+	</object>
+</annotation>

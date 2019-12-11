@@ -1,0 +1,26 @@
+<annotation>
+	<folder>B1nopeople</folder>
+	<filename>2054.jpg</filename>
+	<path>E:\Hassan Work\CNN Computer Vision\ImageSearchTests\Datasets\ShirtData\Data\Tshirts\Batch1\B1nopeople\2054.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>821</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>teeshirt</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>99</xmin>
+			<ymin>156</ymin>
+			<xmax>555</xmax>
+			<ymax>786</ymax>
+		</bndbox>
+	</object>
+</annotation>
