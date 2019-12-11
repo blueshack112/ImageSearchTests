@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Batch4</folder>
+	<filename>872.jpg</filename>
+	<path>E:\Hassan Work\Unity\ARMeasurement\ImageSearchTests\Datasets\ShirtData\Data\shirts\Batch4\872.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>900</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>teeshirt</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>45</xmin>
+			<ymin>225</ymin>
+			<xmax>600</xmax>
+			<ymax>874</ymax>
+		</bndbox>
+	</object>
+</annotation>

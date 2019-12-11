@@ -2,12 +2,20 @@
 # Datasets and models
 ###
 .vscode
-Datasets
+Datasets/json
+Datasets/ShirtData
+Datasets/Zips
+Datasets/Models/mask_rcnn_inception_resnet_v2_atrous_coco_2018_01_28
+Datasets/Models/mask_rcnn_resnet50_atrous_coco_2018_01_28
+!Datasets/Models/final_shirt_model
+
+
+
 Distributed
+RCNNTestandTraining/models
 #RCNNTestandTraining/object_detection/legacy/images
 
 RCNNTestandTraining/object_detection/legacy/data/train.record
 RCNNTestandTraining/object_detection/legacy/mask_rcnn_resnet50_atrous_coco_2018_01_28/frozen_inference_graph.pb
 RCNNTestandTraining/object_detection/legacy/mask_rcnn_resnet50_atrous_coco_2018_01_28/model.ckpt.data-00000-of-00001
 RCNNTestandTraining/object_detection/legacy/mask_rcnn_resnet50_atrous_coco_2018_01_28/saved_model/saved_model.pb
-
