@@ -1,6 +1,6 @@
+# Imports
 import os
 import pathlib
-# Imports
 import numpy as np
 import os
 import six.moves.urllib as urllib
@@ -37,7 +37,7 @@ tf.gfile = tf.io.gfile
 # Any model exported using the `export_inference_graph.py` tool can be loaded here simply by changing the path.
 # http://download.tensorflow.org/models/object_detection/mask_rcnn_inception_resnet_v2_atrous_coco_2018_01_28.tar.gz
 # By default we use an "SSD with Mobilenet" model here. See the [detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md) for a list of other models that can be run out-of-the-box with varying speeds and accuracies.
-def load_model_original(model_name):
+def load_model(model_name):
   base_url = 'http://download.tensorflow.org/models/object_detection/'
   model_file = model_name + '.tar.gz'
   model_dir = tf.keras.utils.get_file(
@@ -53,7 +53,7 @@ def load_model_original(model_name):
   return model
 
 # Same funciton but loads locally
-def load_model(model_name):
+def load_model_local(model_name):
   model_dir = pathlib.Path("Datasets/Models/" + model_name + "/saved_model")
   model = tf.saved_model.load(str(model_dir))
   model = model.signatures['serving_default']
