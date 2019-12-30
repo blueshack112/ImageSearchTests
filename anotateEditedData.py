@@ -168,9 +168,7 @@ for index in imagesData:
 
     counter = counter + 1
     print ("Files processed: " + str(counter), end='\r')
-    if counter == 10:
-        break
-
+    
 # Set the new data to the json file and write it out
 jsonfile[_via_img_metadata] = imagesData
 with open(jsonpath, 'w') as outfile:
